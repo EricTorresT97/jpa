@@ -9,7 +9,9 @@ import java.util.List;
 @Getter @Setter @Entity
 public class Asignatura {
     @Id @GeneratedValue
+    private int id;
     private String nombre;
+
 
     @ManyToMany
     List<Alumno> alumnos;

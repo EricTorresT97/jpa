@@ -15,7 +15,7 @@
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect" />
 
             <!-- hace cambios -->
-            <property name="hibernate.hbm2ddl.auto" value="update" />
+            <property name="hibernate.hbm2ddl.auto" value="create-drop" />
 
             <!-- si los cambios los fastidian todo, no hace cambios -->
             <!-- <property name="hibernate.hbm2ddl.auto" value="validate" /> -->
